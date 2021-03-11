@@ -3,6 +3,10 @@ import {MyAppBar} from './Components/AppBar';
 import {BrowserRouter,Route,Switch} from 'react-router-dom'
 import Hire from './Components/Hire';
 import CreatePost from './Components/CreatePost';
+import Dash from './Components/dash';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import JobCard from './Components/jobCard';
+
 
 // class App extends Component{
   
@@ -23,6 +27,12 @@ function App() {
   
       <div className="App">
         <MyAppBar  />
+        <Dash />
+        <JobCard />
+        <JobCard />
+        <JobCard />
+       
+        
         <BrowserRouter>
        
            <Switch>

@@ -118,7 +118,7 @@ export default function Hire() {
                     </Box>
                     <Box ml={0}  mt={2}>
                         <CardActions>
-                        < Button size="large"  style={{border: '1px solid grey',fontWeight: "bold"}} href="CreatePost">CREATE POSTING</Button>
+                        <Button size="large"  style={{border: '1px solid grey',fontWeight: "bold"}} href="CreatePost">CREATE POSTING</Button>
                         </CardActions>
                     </Box>
                 </div>

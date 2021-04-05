@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 import {Button} from "react-bootstrap"
 import './CSS/style.css'
 
-const skills = ["Java" , "Node js"]
+// const skills = ["Java" , "Node js"]
 
 
 class JobCard extends Component {
@@ -11,7 +11,8 @@ class JobCard extends Component {
  
     return (
       <div className="check">
-        <Card className="card" style={{ width: "75rem"} }>
+      
+        <Card className="card" style={{ width: "75rem", height: "16rem"} }>
           <Card.Body>
             <Card.Title><h1>Frontend Dev</h1></Card.Title>
             <Card.Text>

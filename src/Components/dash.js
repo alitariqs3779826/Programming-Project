@@ -1,10 +1,13 @@
-import React, { Component } from "react";
-import bootstrap from "react-bootstrap";
+import React from "react";
+// import bootstrap, { Container } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import './CSS/dashboard.css';
+import JobCard from "./jobCard";
 
-class Dash extends Component {
-  render() {
+// import styled from 'styled-components';
+
+function Dash() {
+  
     return (
       <div className="search-job text-center">
         <label>Keyword</label>
@@ -14,9 +17,9 @@ class Dash extends Component {
         <label>Location</label>
         <input type="text" className="form-control" name="Search" placeholder="Location" />
         <Button className="btn-primary" variant="primary">Search</Button>
+        
       </div>
     );
-  }
 }
 
 export default Dash;
